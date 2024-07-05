@@ -1,0 +1,220 @@
+
+<!-- saved from url=(0040)https://security.bilibili.com/post/5201/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>
+    漏洞详情 - 哔哩哔哩安全应急响应中心
+    {</title>
+    <meta name="description" content="哔哩哔哩安全应急响应中心">
+    <meta name="keywords" content="bilibili,哔哩哔哩,BILISRC,安全应急响应中心">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.hdslb.com/images/favicon.ico">
+    <link rel="stylesheet" href="./直播删除通知dos_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./直播删除通知dos_files/common.css">
+    <script type="text/javascript" src="./直播删除通知dos_files/jquery.3.5.1.min.js.下载"></script>
+    <script type="text/javascript" src="./直播删除通知dos_files/common.js.下载"></script>
+    <script src="./直播删除通知dos_files/bootstrap.min.js.下载"></script>
+    
+    <link rel="stylesheet" href="./直播删除通知dos_files/code.css">
+    <link rel="stylesheet" href="./直播删除通知dos_files/detail.css">
+    <link rel="stylesheet" href="./直播删除通知dos_files/timeline.css">
+
+<style>hcfy-result.__hcfy__result__loaded__.__hcfy__result__both__{border: 1px dotted}</style></head>
+<body>
+<header>
+    <div class="inner">
+        <nav class="nav justify-content-center">
+            <a href="https://security.bilibili.com/"><img class="logo" src="./直播删除通知dos_files/logo.png"></a>
+            <div class="link">
+                <a class="nav-link first" href="https://security.bilibili.com/">首页</a>
+                <a class="nav-link " href="https://security.bilibili.com/create/">漏洞提交</a>
+                <a class="nav-link" href="https://security.bilibili.com/thanks/?type=all">贡献榜</a>
+                <a class="nav-link" href="https://security.bilibili.com/gift/?price=0">礼品兑换</a>
+                <a class="nav-link" href="https://security.bilibili.com/announcement/?price=0">最新公告</a>
+                <a class="nav-link" data-toggle="modal" href="https://security.bilibili.com/announcement/8/">加入我们</a>
+                <a class="nav-link" data-toggle="modal" data-target="#aboutUS">关于我们</a>
+                
+                    <div class="user-avatar">
+                        <img src="./直播删除通知dos_files/af239f7145ebe7fa0cdfe52b0742bd0916e86b08.jpg">
+                        <div class=""></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://security.bilibili.com/profile/detail/">个人中心</a></li>
+                            <li><a href="https://security.bilibili.com/profile/">漏洞列表</a></li>
+                            <li><a href="https://security.bilibili.com/profile/message/">我的消息</a><span class=""></span></li>
+                            <li><a href="https://security.bilibili.com/logout/?csrftoken=7PGBMT5l6ap7ppWhnglX4yhC2Uipw86DRUADMknzUliDCV5x3Vh8cSiEzFu9ITF4">退出登录</a></li>
+                        </ul>
+                    </div>
+                
+            </div>
+            <div class="clear"></div>
+        </nav>
+    </div>
+</header>
+<div class="modal fade" id="aboutUS" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">关于我们</h4>
+            </div>
+            <div class="modal-body">
+                <p>中文：哔哩哔哩安全应急响应中心</p>
+                <p>英文：BILIBILI SECURITY RESPONSE CENTER</p>
+                <p>简写：BILISRC</p>
+                <p>BILISRC - 哔哩哔哩安全应急响应中心（BILIBILI SECURITY RESPONSE CENTER）是安全研究者和白帽子们反馈哔哩哔哩产品、业务、服务器等安全问题和威胁情报的官方途径，我们将致力于保护广大用户的安全，努力提升哔哩哔哩的整体安全水平。</p>
+                <p>BILISRC 现在仍然在不断的成长过程中，如果您有好的建议，请通过邮件告诉我们：security#bilibili.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="am-content header">
+        <div class="am-center">
+            <h2>BVE-2021047248 直播删除通知dos</h2>
+        </div>
+    </div>
+
+
+    <div class="am-content">
+        <div class="am-center">
+            <p>提交时间: <span>2021-04-14 06:57:49</span></p>
+            <p>等级: <span class="medium">中危</span></p>
+            <p>经验值: <span>3</span></p>
+            <p>安全币: <span>30</span></p>
+            <p>状态: <span>已完成</span></p>
+            <p>如有疑问：<a target="_blank" href="mailto:security@bilibili.com">联系我们</a></p>
+        </div>
+
+        <hr>
+
+        <div class="am-center">
+            <div class="line">
+                <div class="timeline timeline-single-column">
+                    
+                        <div class="timeline-item">
+                            <div class="timeline-point timeline-point-primary">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="timeline-event">
+                                <div class="panel panel-default">
+                                    <div class="timeline-heading">
+                                        <h3 class="panel-title"> 提交漏洞</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        提交了一个新漏洞
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <p class="text-right">2021-04-14 06:57:49</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="timeline-item">
+                            <div class="timeline-point timeline-point-primary">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="timeline-event">
+                                <div class="panel panel-default">
+                                    <div class="timeline-heading">
+                                        <h3 class="panel-title"> 认领漏洞</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        图艾 - None
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <p class="text-right">2021-04-22 15:45:43</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="timeline-item">
+                            <div class="timeline-point timeline-point-primary">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="timeline-event">
+                                <div class="panel panel-default">
+                                    <div class="timeline-heading">
+                                        <h3 class="panel-title"> 关闭漏洞</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        OK 
+                                    </div>
+                                    <div class="timeline-footer">
+                                        <p class="text-right">2021-04-25 11:38:14</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="detail">
+                <p>漏洞链接：<br>
+漏洞概述：<br>
+漏洞详情：<br>
+正常业务：<br>
+<img alt="" src="./直播删除通知dos_files/954749a5b9da6aa923e4a0ef38daf1f82fcc0cd9.png"></p>
+<p>正常api：<br>
+<img alt="" src="./直播删除通知dos_files/025a1070d774fc01b069c5a835d37a6d91ec7af3.png"></p>
+<p>加入重复数据：<br>
+<img alt="" src="./直播删除通知dos_files/9229aa998c49cb2620e6c2511171b5092346c400.png"><br>
+这次是502.不过下面显示也是服务器正在休息。。</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div class="am-content">
+        <div class="am-center">
+            <p>审核评价：<span>没有任何评价...</span></p>
+        </div>
+    </div>
+
+    <hr>
+    <div class="am-content">
+        <div class="am-center">
+            
+            <div id="reply-box"></div>
+            
+
+            <form method="post">
+                
+                <input type="hidden" name="csrfmiddlewaretoken" value="yIq76EUZu1BVLerka5Darg7luHv9fOvliNk965cdicurYKAAQKzlzA8n1sHTrz4M">
+                <button type="submit" class="btn btn-default">
+                    提交</button>
+            </form>
+        </div>
+    </div>
+
+<footer class="mastfoot mt-auto">
+    <div class="inner">
+        <nav class="nav left">
+            <a target="_blank" class="nav-link " href="https://www.bilibili.com/">主站</a>
+            <a class="nav-link" href="https://security.bilibili.com/announcement/8/">加入我们</a>
+            <a target="_blank" class="nav-link" href="https://security.bilibili.com/create/">提交漏洞</a>
+            <a class="nav-link last" href="https://security.bilibili.com/post/5201/#">合作伙伴</a>
+        </nav>
+        <nav class="nav right">
+            <a class="nav-link" data-container="body" data-toggle="popover" data-placement="left" data-content="security#bilibili.com" data-original-title="" title="">专用邮箱</a>
+            <a target="_blank" class="nav-link" href="https://weibo.com/BILISRC">新浪微博</a>
+            <a class="nav-link" href="https://security.bilibili.com/post/5201/#">微信公众号</a>
+        </nav>
+        <div class="clear"></div>
+    </div>
+    <p>COPYRIGHT © 2009 - 2018 BILIBILI. ALL RIGHTS RESERVED 哔哩哔哩版权所有</p>
+</footer>
+
+
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
+</body><div style="all: initial;"><div id="__hcfy__" style="all: initial;"></div></div></html>
