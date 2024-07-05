@@ -1,0 +1,29 @@
+
+方法一：单个网站去搜索
+site:xxx.edu.cn intext 身份证 fitetype:pdf     /xls /doc
+
+
+
+方法二：批量打 全国院校找身份证
+site:{中文：改变域名名称}身份证 "网站关键功能title"
+
+site:{中文：改变域名名称}身份证 "网站关键功能title" fitetype:pdf     /xls /doc
+
+{职业技术学院} 身份证 "统一采购"
+{美术学院} 身份证 "单一来源采购"
+。。。。。。
+
+
+
+
+site:xxx.edu.cn “sfz” filetype:pdf /xls /doc
+
+
+
+
+对指定大学网站信息收集：
+site:xxx.edu.cn intext 身份证 fitetype:pdf     /xls /doc
+
+"中文名字" "身份证" fitetype:pdf     /xls /doc
+
+site:XXX.edu.cn "学号" "姓名"
